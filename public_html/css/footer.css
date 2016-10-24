@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2016, 2:03:47 PM
+    Author     : Admin
+*/
+.inner {
+    padding: 0;
+    padding: 0 25px;
+}
+.contentWrapper {
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 50px
+}
+#footerMenuContainer {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+.footerMenu {
+        /* width: 21%; */
+    width: 20%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footerMenuHeader {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    color: #fff;
+    margin-left: 25px;
+}
+.list {
+    color:#fff;
+}
+.clearfloat {
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.imagelink {
+    padding: 0 0 0 27px;
+    display: block;
+    height: 16px;
+    margin: 5px 10px 0 0;
+}
+.facebook {
+    background: url(/newscienceseries/public_html/img/facebook.png) no-repeat left center transparent;
+}
+
