@@ -178,3 +178,18 @@ form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #
     font-size: 0.7em;
     color: #999 !important;
 }
+
+/* Thea */
+#journals{
+ display:inline-block;
+ max-width: 100%;
+}
+
+.img-journal{
+
+  padding-top:          0.2em;
+  padding-bottom:       0.2em;
+  width: 15%;
+  height: auto;
+  max-width:100%;
+}
