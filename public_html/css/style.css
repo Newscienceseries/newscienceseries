@@ -180,16 +180,53 @@ form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #
 }
 
 /* Thea */
-#journals{
- display:inline-block;
- max-width: 100%;
+
+.journals{
+    max-width:  100%;
+    max-height: 100%;
+    justify-content:center;
+    /* margin-left: 11%; */
+    /* margin-right: 11%; */
+    /* column-count: 5; */
 }
 
 .img-journal{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    position:relative;
+}
 
-  padding-top:          0.2em;
-  padding-bottom:       0.2em;
-  width: 15%;
-  height: auto;
-  max-width:100%;
+div{
+    display:block;
+}
+.journal-block{
+    padding-top:    0.2em;
+    padding-bottom: 3.2em;
+    padding-right:  1em;
+    padding-left:   1em;
+    width:          15%;
+    margin-left:    11%;
+    float: left;
+}
+.journal-text{
+    font-family: Bree-serif, Sans-serif;
+    font-size: 1.0em;
+    position:relative;
+    text-align:center;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.journals-list{
+
+  list-style-type:none;
+}
+
+.journals-list-item{
+    
 }
