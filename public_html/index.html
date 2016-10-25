@@ -46,16 +46,30 @@ Contributor(s):
 
         <script type="text/javascript" src="js/loadWelcome.js"></script>
         <script type="text/javascript">window.onload = getWelcome;</script>
+           <script type="text/javascript">
+            $(document).ready(function() {
+    $('#navigation').load('navbar.html');
+});
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+    $('#footer').load('footer.html');
+});
+        </script>
 
         <!-- Le styles -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.0.4/css/bootstrap.css" type="text/css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.0.4/css/bootstrap-responsive.css" type="text/css"/>
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        
+     
 
         <style type="text/css">
             body {
                 padding-top: 60px;
                 padding-bottom: 40px;
+       
+                    
             }
         </style>
 
@@ -84,5 +98,9 @@ Contributor(s):
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/2.0.4/js/bootstrap-carousel.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/2.0.4/js/bootstrap-typeahead.js"></script>
 
+
+    <div id="navigation"></div>
+        <h1>Test</h1>
+        <div id="footer"></div>
     </body>
 </html>

@@ -40,6 +40,23 @@
  * Portions Copyrighted 2012 Sun Microsystems, Inc.
  */
 
+/*Davood*/
+#footer {
+    width: 100%;
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-size: 12px;
+    background-color: #000;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-family: Arial,Helvetica,sans-serif !important;
+}
+
+
+
+
 .thumb {
     width: 150px;
     height: 150px;
