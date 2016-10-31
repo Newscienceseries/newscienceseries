@@ -3,9 +3,6 @@
 
 .slider-container{
 
-    height:60vh;
-    width:100%;
-
     margin-top: 5%;
     margin-bottom:10%;
     
@@ -30,8 +27,12 @@
 .slides {   
     position: relative;
     display: block;
-    width:95%;
-    height:100%;
+   /* width: 609px;
+    height: 420px;*/
+   width: 60em;
+   height:30em;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .slides * {
@@ -64,11 +65,11 @@
 }
 
 .nav label {
-    width: 10%;
+    width: 0.5em;
     height: 100%;
-    top:0;
     display: none;
     position: absolute;
+
     opacity: 0;
     z-index: 9;
     cursor: pointer;
@@ -78,7 +79,7 @@
     color: #FFF;
     font-size: 156pt;
     text-align: center;
-    line-height: 250%;
+    line-height: 2.25em;
     font-family: "Varela Round", sans-serif;
     background-color: rgba(255, 255, 255, .3);
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
@@ -106,9 +107,8 @@ input:checked + .slide-list .nav label {
 .nav-dots {
         backgroun-color:#0000ff;
 	width: 100%;
-        height: 3%;
-        bottom:5%;
-
+	bottom: 1em;
+	height: 1em;
 	display: block;
 	position: absolute;
 	text-align: center;
@@ -118,11 +118,11 @@ input:checked + .slide-list .nav label {
 	width: 1.9%;
 	height: 120%;
 	margin: 0 0.7%;
-        
+        position:relative;
 	border-radius: 100%;
 	display: inline-block;
 	background-color: transparent !important;
-        border: 0.1em solid #ccc !important;
+        border: 0.1px solid #ccc !important;
 }
 
 
