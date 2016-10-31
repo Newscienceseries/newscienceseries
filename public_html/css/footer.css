@@ -7,6 +7,12 @@ and open the template in the editor.
     Created on : Oct 24, 2016, 2:03:47 PM
     Author     : Admin
 */
+#footer {
+    width: 100%;
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-size: 12px;
+    background-color: #000;
+}
 .inner {
     padding: 0;
     padding: 0 25px;
