@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="navbar.css" type="text/css"/>
+    </head>
+    <body>
+        <div id="navTop">        
+            <div id=navLeftDiv>
+                <a id="navLogo" href=""><img src="img/rabbit1.jpg"                                             
+                                            id="navHeader" alt="New science series"></a>
+            </div>
+            <div id=navCenterDiv>
+                <form id="navSearchBox" action="">
+                        <!--   <fieldset class="navSearchFieldSet">  -->                             
+                               <input title="searchField" id="searchText" 
+                                      placeholder="Search" name="searchtext" type="text">
+                               <input type="image" id="submitButton" src="http://tomblaisse.com/images/magnifying_glass.png"
+                                      alt="Submit">                               
+                     <!--      </fieldset>  -->                         
+                       </form>
+                
+                <ul id="navMenu" class="navMenuClass">
+                       <li><a href="">Home</a></li>                       
+                       <li><a href="">About us</a></li>                       
+                       <li><a href="">Temp link 1</a></li>                       
+                       <li><a href="">Temp link 2</a></li>  
+                     
+                   </ul>
+            </div>
+            <div id=navRightDiv>
+                <a class="navExpand" onclick="treebarFunction()" id="treeBar2">&#9776</a>
+            </div>
+        </div>
+        <script>
+            var navTopHeight;
+            var intervalVar;
+               function treebarFunction() {
+             //  console.log("Function is called"); 
+               // var i = 0;
+                //var x = document.getElementById((i === 0) ? "navMenu" : "extraNavTop");
+                var x = document.getElementById("navMenu");
+                var y = document.getElementById("navTop");                 
+                var newHeight = 120;                 
+              //  console.log("X is " + x + ". x.classname is " + x.className);                 
+                if (x.className === "navMenuClass") {
+                    x.className += " responsive";
+                //    z.className += " responsive";
+                    
+                   // newHeight = (x.childElementCount * 16) + 120;   
+                    newHeight = x.offsetHeight + 120;
+                    
+                    console.log("newHeight is " + newHeight);
+                    newHeight += "px";
+                    y.style.height = newHeight;
+                    intervalVar = setInterval(checkForViewportChange,150);
+                } else {
+                    x.className = "navMenuClass";                    
+                    y.style.height = "120px";
+                    clearInterval(intervalVar);
+                }
+              //  console.log("y.style.height is " + y.style.height);
+              //  console.log("2. newHeight is " + newHeight);
+                navTopHeight = y.style.height;
+            }
+            
+            function checkForViewportChange (){
+                if (window.innerWidth >= 700) {
+                    document.getElementById("navTop").style.height = "120px";
+                    if (document.getElementById("navMenu").className !== "navMenuClass") {
+                        treebarFunction();                   
+                        clearInterval(intervalVar);
+                    }
+                } else { 
+                    document.getElementById("navTop").style.height = navTopHeight;
+                }
+                
+            }
+            
+        </script>
+    </body>
+    
+    
