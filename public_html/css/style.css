@@ -200,7 +200,7 @@ form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #
 .journals{
     max-width:  100%;
     justify-content:center;
-    /* margin-left: 11%; */
+   margin-left:-3.5%;
     /* margin-right: 11%; */
     /* column-count: 5; */
     height: 100vh;
@@ -221,7 +221,7 @@ form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #
     /* padding-right:  1em; */
     height: 15%;
     max-height: 100%;
-    margin-left: 11.3%;
+    margin-left: 13%;
     float: left;
 }
 .journal-text{
