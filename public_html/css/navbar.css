@@ -10,12 +10,13 @@ and open the template in the editor.
    
 
 #navTop {
-    background-color: black;
+    background-color: #333;
     color: white;
     height: 120px;
    /* border: red dotted 2px;*/
-    margin: -8px;
+  /*  margin: -8px;*/
     z-index: -1;
+    width: 100%;
     
 }
 #navTop #navLeftDiv {
@@ -51,7 +52,8 @@ and open the template in the editor.
 
 #navTop #navSearchBox {
     float: right;
-    padding-top: 20px;    
+    padding-top: 20px;   
+   /* border: green dotted 2px;*/
    
     
 }
@@ -87,6 +89,8 @@ and open the template in the editor.
   /*  position: absolute;*/
     z-index: 1000;
     overflow: hidden; 
+   /* border: red dotted 2px;   */ 
+    width: 100%;
     
 }
 #navTop #navMenu :hover {
@@ -99,16 +103,17 @@ and open the template in the editor.
     display: none;
         
     
-    margin-top: 30px;
+    margin-top: 80px;
    /* margin-left: 90%;*/
    /*margin-left: -45px;*/
-    font-size: 450%;
+    font-size: 415%;
     float: right;
    /* x-axis: right;*/
    /* left: 100%;*/
 }
-#navTop .navExpand :hover {  
+#navTop :hover .navExpand  {  
     color: orange;
+    text-decoration: none;
 }
 
 #navTop li {
@@ -129,6 +134,10 @@ and open the template in the editor.
     #navTop .navExpand {
      /*   float: right;*/
         display: inline-block;
+    }
+    #navTop .navExpand :hover {
+     /*   float: right;*/
+        color: orange;
     }
     #navTop li {border: none; }
     
@@ -151,8 +160,16 @@ and open the template in the editor.
         border-right: none;
        /* margin-top: -5px;*/
     }
+    
 }
 
+@media screen and (max-width:550px) {
+    #navTop #navSearchBox {
+    position: absolute;
+    margin-left: 70px;
+    }
+}
+/*
 @media screen and (max-width:500px) {
     #navTop #navLogo img {
         position: absolute;    
@@ -161,4 +178,4 @@ and open the template in the editor.
     /*  position: absolute;*/
         padding-top: 20px;
     }
-}
+}*/
