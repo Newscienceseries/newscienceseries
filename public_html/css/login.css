@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 26, 2016, 9:50:50 AM
+    Author     : Admin
+*/
+
+.admin{
+    background-color: #FEFFED;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+}
+hr{
+    margin: 10px -50px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+div.container{
+    width: 900px;
+    height: 610px;
+    margin:35px auto;
+    font-family: 'Raleway', sans-serif;
+}
+div.main{
+    width: 300px;
+    padding: 10px 50px 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+    float:left;
+    margin-top:50px;
+    margin-left:30%
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+}
+label{
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+center{
+    font-size:32px;
+}
+.note{
+    color:red;
+}
+.valid{
+    color:green;
+}
+.back{
+    text-decoration: none;
+    border: 1px solid rgb(0, 143, 255);
+    background-color: rgb(0, 214, 255);
+    padding: 3px 20px;
+    border-radius: 2px;
+    color: black;
+}
+input[type=button]{
+    font-size: 16px;
+    background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+    border: 1px solid #e5a900;
+    color: #4E4D4B;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline:none;
+}
+input[type=button]:hover{
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+#formdiv {
+    text-align: center;
+}
+#file {
+    color: green;
+    padding: 5px;
+    border: 1px dashed #123456;
+    background-color: #f9ffe5;
+}
+#img {
+    width: 17px;
+    border: none;
+    height: 17px;
+    margin-left: -20px;
+    margin-bottom: 191px;
+}
+.upload {
+    width: 100%;
+    height: 30px;
+}
+.previewBox {
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+.previewBox img {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid rgb(232, 222, 189);
+}
+.delete {
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    width: 20px;
+    height:  20px;
+    border-radius: 50%;
+    background: #ccc;
+}
+.main_wrapper{
+    width:1000px;
+    height:auto;
+    margin:auto;
+}
+.content_wrapper{
+    width:1000px;
+    height:800px;
+    margin:auto;
+
+}
+#content_area{
+    width:1000px;
+    height:800px;
+    float:right;
+}
+#journals_box {
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#single_product {
+    float:left;
+    margin:20px;
+    padding: 10px;
+}
+#left{
+    width: 795px;
+    height: 600px;
+    float: left;
+    
+}
+#right{
+    width: 100px;
+    height: 400px;
+    float: right;
+    border-left: 5px groove orange;
+    
+}

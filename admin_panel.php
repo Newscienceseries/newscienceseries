@@ -1,7 +1,12 @@
 
 <?php
 require 'includes/db.php';
-include 'functions/functions.php';
+include 'includes/db.php';
+session_start();
+if(!isset($_SESSION['user_email'])){
+    echo "<script>window.open('login.php?not_admin=You are not admin','_self')</script>";
+}
+else{
 ?>
 
 <html>
@@ -64,9 +69,10 @@ include 'functions/functions.php';
         $insert_jour = mysqli_query($con, $insert_journal);
         if($insert_jour){
             echo "<script>alert('Journal has been inserted!');</script>";
-            echo "<script>window.open('admin_panel.php','_self');</script>";
+            echo "<script>window.open('admin.php?view_journal','_self');</script>";
          }
         
     }
 
   ?>
+<?php }

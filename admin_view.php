@@ -1,4 +1,12 @@
-
+<?php
+include 'includes/db.php';
+session_start();
+if(!isset($_SESSION['user_email'])){
+    echo "<script>window.open('login.php?not_admin=You are not admin','_self')</script>";
+}
+else{
+    ?>
+}
         <table width="795" align="center" bgcolor="pink">
             
             <tr align="center">
@@ -42,4 +50,4 @@
             <?php } ?>
         </table>
         
-   
+<?php }
