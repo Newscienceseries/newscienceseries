@@ -2,8 +2,7 @@
 
 
 .slider-container{
-
-    margin-top: 5%;
+    margin-top:5%;
     margin-bottom:10%;
     
     /* Firefox */
@@ -29,8 +28,8 @@
     display: block;
    /* width: 609px;
     height: 420px;*/
-   width: 60em;
-   height:30em;
+   width: 70em;
+   height:40em;
     margin: 0 auto;
     padding: 0;
 }
@@ -80,7 +79,7 @@
     color: #FFF;
     font-size: 156pt;
     text-align: center;
-    line-height: 1.9em;
+    line-height: 2.5em;
     font-family: "Varela Round", sans-serif;
     background-color: rgba(255, 255, 255, .3);
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
@@ -133,7 +132,9 @@ input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3,
 input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
-input#img-6:checked ~ .nav-dots label#img-dot-6 {
+input#img-6:checked ~ .nav-dots label#img-dot-6,
+input#img-7:checked ~ .nav-dots label#img-dot-7,
+input#img-8:checked ~ .nav-dots label#img-dot-8 {
     color: #000 !important;
     background-color: rgba(255, 255, 255, 0.8)!important;
     
