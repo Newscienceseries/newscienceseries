@@ -3,7 +3,8 @@
 
 .slider-container{
     margin-top:5%;
-    margin-bottom:10%;
+    margin-bottom:5%;
+   
     
     /* Firefox */
     display:-moz-box;
@@ -24,6 +25,7 @@
 
 }
 .slides {   
+    margin:auto;
     position: relative;
     display: block;
    /* width: 609px;
